@@ -43,7 +43,7 @@ def universal_save_results(res_tr, res_te, res_va, model_code):
 # ==========================================
 # 1. 数据加载与 6-1-1 划分
 # ==========================================
-file_path = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+file_path = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 print("⏳ Loading data...")
 
 all_sheets = pd.read_excel(file_path, sheet_name=None)
@@ -220,20 +220,20 @@ plt.rcParams['axes.unicode_minus'] = False
 # 任务1：模型验证 (基于第7组)
 MODEL_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'Standard LSTM': r"C:\Users\姚景文\Downloads\12.csv",
-    'GRU': r"C:\Users\姚景文\Downloads\13.csv",
-    'BPNN': r"C:\Users\姚景文\Downloads\14.csv"
+    'Standard LSTM': '12.csv'
+    'GRU': '13.csv'
+    'BPNN': '14.csv'
 }
 
 # 任务2：工程验证 (基于第8组)
 ENG_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'BP-GM': r"C:\Users\姚景文\Downloads\15.csv",
-    'PSO-LSTM': r"C:\Users\姚景文\Downloads\16.csv",
-    'CNN-GRU': r"C:\Users\姚景文\Downloads\17.csv",
-    'Bi-LSTM': r"C:\Users\姚景文\Downloads\18.csv"
+    'BP-GM': '15.csv'
+    'PSO-LSTM': '16.csv'
+    'CNN-GRU': '17.csv'
+    'Bi-LSTM': '18.csv'
 }
-REAL_DATA_PATH = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+REAL_DATA_PATH = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 
 # ==========================================
 # 2. 动态获取测点总数 (用于解决序列长度不一的问题)
@@ -422,20 +422,20 @@ plt.rcParams['axes.unicode_minus'] = False
 # 任务1：模型验证 (基于第7组)
 MODEL_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'Standard LSTM': r"C:\Users\姚景文\Downloads\12.csv",
-    'GRU': r"C:\Users\姚景文\Downloads\13.csv",
-    'BPNN': r"C:\Users\姚景文\Downloads\14.csv"
+    'Standard LSTM': '12.csv'
+    'GRU': '13.csv'
+    'BPNN': '14.csv'
 }
 
 # 任务2：工程验证 (基于第8组)
 ENG_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'BP-GM': r"C:\Users\姚景文\Downloads\15.csv",
-    'PSO-LSTM': r"C:\Users\姚景文\Downloads\16.csv",
-    'CNN-GRU': r"C:\Users\姚景文\Downloads\17.csv",
-    'Bi-LSTM': r"C:\Users\姚景文\Downloads\18.csv"
+    'BP-GM': '15.csv'
+    'PSO-LSTM': '16.csv'
+    'CNN-GRU': '17.csv'
+    'Bi-LSTM': '18.csv'
 }
-REAL_DATA_PATH = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+REAL_DATA_PATH = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 
 # 高级莫兰迪色系
 COLOR_PALETTE = [
@@ -613,13 +613,12 @@ plt.rcParams['axes.unicode_minus'] = False
 # ==========================================
 ENG_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'BP-GM': r"C:\Users\姚景文\Downloads\15.csv",
-    'PSO-LSTM': r"C:\Users\姚景文\Downloads\16.csv",
-    'CNN-GRU': r"C:\Users\姚景文\Downloads\17.csv",
-    'Bi-LSTM': r"C:\Users\姚景文\Downloads\18.csv"
+    'BP-GM': '15.csv'
+    'PSO-LSTM': '16.csv'
+    'CNN-GRU': '17.csv'
+    'Bi-LSTM': '18.csv'
 }
-REAL_DATA_PATH = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
-
+REAL_DATA_PATH = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 # 保持原有配色、线型与标记符号不变
 COLORS = ['#d62728', '#1f77b4', '#2ca02c', '#ff7f0e', '#9467bd', '#8c564b']
 MARKERS = ['o', 's', '^', 'D', 'v', 'p']
@@ -781,20 +780,20 @@ plt.rcParams['axes.unicode_minus'] = False
 # 任务1：模型验证 (基于第7组)
 MODEL_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'Standard LSTM': r"C:\Users\姚景文\Downloads\12.csv",
-    'GRU': r"C:\Users\姚景文\Downloads\13.csv",
-    'BPNN': r"C:\Users\姚景文\Downloads\14.csv"
+    'Standard LSTM': '12.csv'
+    'GRU': '13.csv'
+    'BPNN': '14.csv'
 }
 
 # 任务2：工程验证 (基于第8组)
 ENG_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'BP-GM': r"C:\Users\姚景文\Downloads\15.csv",
-    'PSO-LSTM': r"C:\Users\姚景文\Downloads\16.csv",
-    'CNN-GRU': r"C:\Users\姚景文\Downloads\17.csv",
-    'Bi-LSTM': r"C:\Users\姚景文\Downloads\18.csv"
+    'BP-GM': '15.csv'
+    'PSO-LSTM': '16.csv'
+    'CNN-GRU': '17.csv'
+    'Bi-LSTM': '18.csv'
 }
-REAL_DATA_PATH = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+REAL_DATA_PATH = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 
 # 高级莫兰迪色系 (适配多子图)
 COLOR_PALETTE = ['#d62728', '#1f77b4', '#2ca02c', '#ff7f0e', '#9467bd', '#8c564b']
@@ -962,20 +961,20 @@ plt.rcParams['axes.unicode_minus'] = False
 # 任务1：模型验证 (基于第7组)
 MODEL_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'Standard LSTM': r"C:\Users\姚景文\Downloads\12.csv",
-    'GRU': r"C:\Users\姚景文\Downloads\13.csv",
-    'BPNN': r"C:\Users\姚景文\Downloads\14.csv"
+    'Standard LSTM': '12.csv'
+    'GRU': '13.csv'
+    'BPNN': '14.csv'
 }
 
 # 任务2：工程验证 (基于第8组)
 ENG_VAL_MAP = {
     'AutoGluon': '02.csv',
-    'BP-GM': r"C:\Users\姚景文\Downloads\15.csv",
-    'PSO-LSTM': r"C:\Users\姚景文\Downloads\16.csv",
-    'CNN-GRU': r"C:\Users\姚景文\Downloads\17.csv",
-    'Bi-LSTM': r"C:\Users\姚景文\Downloads\18.csv"
+    'BP-GM': '15.csv'
+    'PSO-LSTM': '16.csv'
+    'CNN-GRU': '17.csv'
+    'Bi-LSTM': '18.csv'
 }
-REAL_DATA_PATH = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+REAL_DATA_PATH = rr"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 
 
 # 莫兰迪高辨识度配色

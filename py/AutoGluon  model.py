@@ -43,7 +43,7 @@ def universal_save_results(res_tr, res_te, res_va, model_code):
 # ==========================================
 # 1. 数据加载与 6-1-1 划分
 # ==========================================
-file_path = r"C:\Users\姚景文\Desktop\沉降数据(1).xlsx"
+file_path = r"C:\Users\姚怡帆\Desktop\数据集\沉降数据(1).xlsx"
 print("⏳ Loading data...")
 
 all_sheets = pd.read_excel(file_path, sheet_name=None)
